@@ -21,16 +21,16 @@ Este documento servirá como nosso guia passo a passo, dividido em **Sprints**, 
 ## Sprint 3: A Interface da Mini IDE
 *Objetivo: Criar uma experiência visual premium de chat e visualização de código para o usuário.*
 
-- [ ] **Task 3.1**: Desenvolver o layout principal da IDE (Menu lateral, Painel de Chat à esquerda, Painel de Código à direita).
-- [ ] **Task 3.2**: Implementar o fluxo de Chat (bolhas de mensagem do usuário e da IA, com indicador de digitação).
-- [ ] **Task 3.3**: Integrar o `Monaco Editor` no Painel de Código para exibir sintaxe de forma amigável.
-- [ ] **Task 3.4**: Conectar o Frontend ao endpoint `/api/chat` do Backend e renderizar a resposta.
+- [x] **Task 3.1**: Desenvolver o layout principal da IDE (Menu lateral, Painel de Chat à esquerda, Painel de Código à direita).
+- [x] **Task 3.2**: Implementar o fluxo de Chat (bolhas de mensagem do usuário e da IA, com indicador de digitação).
+- [x] **Task 3.3**: Integrar o `Monaco Editor` no Painel de Código para exibir sintaxe de forma amigável.
+- [x] **Task 3.4**: Conectar o Frontend ao endpoint `/api/chat` do Backend e renderizar a resposta.
 
 ## Sprint 4: Controle e Aprovação (Diff & Extract)
 *Objetivo: Separar o "bate-papo" do "código gerado" e permitir que o usuário aprove as alterações.*
 
-- [ ] **Task 4.1**: Implementar lógica no Backend (ou Frontend) para extrair blocos de código (ex: ` ```genexus ... ``` `) do texto retornado pela IA.
-- [ ] **Task 4.2**: Mostrar o código extraído diretamente no Monaco Editor.
+- [x] **Task 4.1**: Implementar lógica no Backend (ou Frontend) para extrair blocos de código (ex: ` ```genexus ... ``` `) do texto retornado pela IA.
+- [x] **Task 4.2**: Mostrar o código extraído diretamente no Monaco Editor.
 - [ ] **Task 4.3**: Adicionar botão "Aprovar Alterações (Aplicar na KB)" na interface.
 - [ ] **Task 4.4**: Criar endpoint `/api/apply-changes` no backend que receberá o código aprovado.
 
