@@ -13,10 +13,10 @@ Este documento servirá como nosso guia passo a passo, dividido em **Sprints**, 
 ## Sprint 2: O Motor de IA e Skill Nexa
 *Objetivo: Integrar a LLM e dar o conhecimento do GeneXus a ela através da skill nexa.*
 
-- [ ] **Task 2.1**: Baixar a skill `nexa` (arquivos `SKILL.md` etc) do repositório oficial do GeneXus.
-- [ ] **Task 2.2**: Criar módulo de carregamento e parseamento do arquivo `SKILL.md` no backend.
-- [ ] **Task 2.3**: Integrar SDK da LLM (ex: OpenAI) no backend.
-- [ ] **Task 2.4**: Criar endpoint `/api/chat` que recebe a mensagem do usuário, injeta a skill `nexa` como *System Prompt* e retorna o streaming de texto gerado pela LLM.
+- [x] **Task 2.1**: Baixar a skill `nexa` (arquivos `SKILL.md` etc) do repositório oficial do GeneXus.
+- [x] **Task 2.2**: Criar módulo de carregamento e parseamento do arquivo `SKILL.md` no backend.
+- [x] **Task 2.3**: Integrar SDK da LLM (ex: OpenAI) no backend.
+- [x] **Task 2.4**: Criar endpoint `/api/chat` que recebe a mensagem do usuário, injeta a skill `nexa` como *System Prompt* e retorna o streaming de texto gerado pela LLM.
 
 ## Sprint 3: A Interface da Mini IDE
 *Objetivo: Criar uma experiência visual premium de chat e visualização de código para o usuário.*

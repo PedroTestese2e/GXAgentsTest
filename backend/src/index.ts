@@ -15,6 +15,10 @@ app.get('/ping', (req, res) => {
   res.json({ message: 'pong', status: 'OK' });
 });
 
+import { chatHandler } from './chat';
+app.post('/api/chat', chatHandler);
+
+
 app.listen(port, () => {
   console.log(`Backend server is running on http://localhost:${port}`);
 });
